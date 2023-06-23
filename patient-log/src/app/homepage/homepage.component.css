@@ -1,0 +1,17 @@
+.main {
+    width : 100 vw;
+    height : 90vh;
+    background: #9bb0ff; 
+    display: flex;
+    position: relative;
+}
+.home-options {
+    width: 150 rem;
+    height: 100 rem;
+    background: #727272;
+}
+.op1 {
+    background: #fff;
+    position: absolute;
+    
+}
