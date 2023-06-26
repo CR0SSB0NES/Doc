@@ -1,6 +1,16 @@
-<header>This is a placeholder</header>
+<!-- <header>This is a placeholder</header> -->
 <div class="main">
-    <div class="home-options op1">1</div>
-    <div class="home-options op2">2</div>
-    <div class="home-options op3">3</div>
+    <div class="options-cnt">
+        <div (click)="patientsBtn()" class="main-opt op1">
+            <div class="patientsHeading" [ngClass]="{'slide-left': showPatients}">
+                Patience
+            </div>
+            <div class="patientsTag" *ngIf="showPatients">
+                <div class="addPatients" (click)="addPatient()"></div>
+                <div class="viewPatients" (click)="viewPatient()"></div>
+            </div>
+        </div>
+        <div class="main-opt op2">Medicines</div>
+        <div class="main-opt op3">Research</div>
+    </div>
 </div>
