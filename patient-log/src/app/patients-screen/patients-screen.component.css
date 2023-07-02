@@ -16,8 +16,55 @@
     position: relative;
     left: 15vw;
     top: 10vh;
-    /* background: #555; */
-    width: 80vw;
+    box-sizing: border-box;
+    padding: 2rem 2rem 2rem 0.5rem;
+    width: 85vw;
     min-height: 90vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../../../../../../../Pictures/bgk.jpg);
+    /* background-size:contain; */
+}
 
+.user-profile-cnt {
+    position: fixed;
+    top: 20vh;
+    width: 25vw;
+    height: 70vh;
+    border-radius: 1rem;
+    backdrop-filter: blur(32px);
+    cursor: pointer;
+    /* , drop-shadow(2px 4px 6px black); */
+}
+
+.person-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 15rem;
+    filter: drop-shadow(0px 5px 6px #444) opacity(0.6);
+}
+
+p {
+    margin: 0;
+}
+
+.user-info {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.profile-heading-t1 {
+    font-size: 1rem;
+    color: #fff;
+    padding: 0 0 1rem 0;
+}
+
+.p-name {
+    /* appearance: none; */
+    outline: none;
+    border: none;
 }
