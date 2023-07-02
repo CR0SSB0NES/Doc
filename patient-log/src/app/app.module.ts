@@ -5,12 +5,15 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PatientsScreenComponent } from './patients-screen/patients-screen.component';
+import { SideNavBarComponent, TopNavBarComponent  } from './nav-bars/nav-bars.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    PatientsScreenComponent
+    PatientsScreenComponent,
+    SideNavBarComponent,
+    TopNavBarComponent
   ],
   imports: [
     BrowserModule,

@@ -7,7 +7,7 @@ import { PatientsScreenComponent } from './patients-screen/patients-screen.compo
 const routes: Routes = [
   { path:'', redirectTo:"/home", pathMatch:'full'},
   { path: "home", component: HomepageComponent},
-  { path:"patients", component : PatientsScreenComponent}
+  { path: "patients", component : PatientsScreenComponent}
 ]
 
 @NgModule({
