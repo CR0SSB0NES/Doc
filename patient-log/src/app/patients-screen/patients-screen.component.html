@@ -8,7 +8,11 @@
         </div>
         <div class="user-info">
             <p class="profile-heading-t1 patient-name">Name:</p>
-            <input type="text" name="p-name" class="p-name" >
+            <!-- <input type="text" name="p-name" class="p-name" > -->
+            <mat-form-field>
+                <mat-label class="temp">What's your name?</mat-label>
+                <input matInput [(ngModel)]="name">
+              </mat-form-field>
             <mat-divider></mat-divider>
 
             <p class="profile-heading-t1 patient-number">Serial No:</p>
